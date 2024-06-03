@@ -1,0 +1,10 @@
+class DigitalSymphony:
+    def __init__(self, instruments):
+        self.instruments = instruments
+
+    def play(self):
+        for instrument in self.instruments:
+            print(f"Playing {instrument}...")
+
+orchestra = DigitalSymphony(["violin", "flute", "piano"])
+orchestra.play()
